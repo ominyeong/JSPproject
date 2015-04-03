@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class HelloServlet
  */
-@WebServlet("/HelloServlet") //url mapping이라고 한다
+@WebServlet("/HelloServlet") //url mapping이라고 한다 클래스이름하고 url과 맵핑시키는것
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
